@@ -3,3 +3,5 @@ numpy==1.24.1
 reedsolo==1.7.0
 torch==2.0.1
 torchvision==0.15.2
+
+pip install imageio==2.33.0 numpy==1.24.1 reedsolo==1.7.0 torch==2.0.1 torchvision==0.15.2
