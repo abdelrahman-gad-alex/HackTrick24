@@ -69,7 +69,6 @@ def get_riddle(team_id, riddle_id):
 
     response = requests.post(f'http://{api_base_url}/fox/get-riddle', json={"teamId": team_id, "riddleId": riddle_id})
     input = response.json().get('test_case')
-    print(response.json())
     return input
 
 
@@ -78,7 +77,7 @@ def solve_riddle(team_id, solution):
     In this function you will solve the riddle that you have requested. 
     You will hit the API end point that submits your answer.
     Use te riddle_solvers.py to implement the logic of each riddle.
-    '''
+    ''' 
 
     response = requests.post(f'http://{api_base_url}/fox/solve-riddle', json={"teamId": team_id, "solution": solution})
     total = response.json().get('total_budget')
@@ -130,10 +129,12 @@ def submit_fox_attempt(team_id):
     '''
     message, carrier_image = init_fox(team_id)
     message_array, indicator_array = generate_message_array(message, carrier_image)
-    riddles_to_solve = ['sec_hard', 'problem_solving_easy',
+    riddles_to_solve = ['sec_medium_stegano',
+                        'sec_hard', 'problem_solving_easy', 'problem_solving_medium',
                         'problem_solving_hard']
     for i in range(len(riddles_to_solve)):
         riddle=riddles_to_solve[i]
+        print(riddle)
         test_case = get_riddle(team_id, riddle)
         try:
             solution = riddle_solvers[riddle](test_case)
@@ -153,6 +154,6 @@ def submit_fox_attempt(team_id):
     end_fox(team_id)
 
 
-# submit_fox_attempt(team_id)
-response = requests.post(f'http://13.53.169.72:5000/attempts/student', json={"teamId": team_id})
-print(response.json())
+submit_fox_attempt(team_id)
+# response = requests.post(f'http://13.53.169.72:5000/attempts/student', json={"teamId": team_id})
+# print(response.json())

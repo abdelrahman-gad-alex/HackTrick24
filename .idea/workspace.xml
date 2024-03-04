@@ -46,7 +46,8 @@
       <workItem from="1709430671519" duration="8015000" />
       <workItem from="1709475100397" duration="59000" />
       <workItem from="1709480974758" duration="9503000" />
-      <workItem from="1709494658184" duration="2179000" />
+      <workItem from="1709494658184" duration="6925000" />
+      <workItem from="1709515667289" duration="421000" />
     </task>
     <servers />
   </component>
@@ -66,7 +67,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LSBSteg_py$utils.coverage" NAME="utils Coverage Results" MODIFIED="1709487668717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SteganoGAN" />
-    <SUITE FILE_PATH="coverage/LSBSteg_py$fox_submission_solver.coverage" NAME="fox_submission_solver Coverage Results" MODIFIED="1709495750568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Solvers" />
+    <SUITE FILE_PATH="coverage/LSBSteg_py$fox_submission_solver.coverage" NAME="fox_submission_solver Coverage Results" MODIFIED="1709516035540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Solvers" />
     <SUITE FILE_PATH="coverage/LSBSteg_py$cv1.coverage" NAME="cv1 Coverage Results" MODIFIED="1709488255887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HackTrick24$utils.coverage" NAME="utils Coverage Results" MODIFIED="1709431728252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SteganoGAN" />
     <SUITE FILE_PATH="coverage/HackTrick24$cv1.coverage" NAME="cv1 Coverage Results" MODIFIED="1709438372826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
